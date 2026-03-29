@@ -1,0 +1,32 @@
+{
+  "name": "astral-php/astral-form",
+  "version": "0.1.0",
+  "description": "Form helpers and partials for Astral MVC.",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "astral",
+    "php",
+    "form",
+    "validator",
+    "tailwind"
+  ],
+  "require": {
+    "php": "^8.0",
+    "astral-php/astral": "^1.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Astral\\\\Form\\\\": "src/Astral/Form/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Astral\\\\Form\\\\Tests\\\\": "tests/"
+    }
+  }
+}
+
