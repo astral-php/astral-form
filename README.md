@@ -93,7 +93,7 @@ Des exemples complets sont disponibles dans `examples/`:
 Depuis la racine du projet Astral:
 
 ```bash
-vendor/bin/phpunit --configuration components/astral-form/phpunit.xml
+vendor/bin/phpunit
 ```
 
 ## License
