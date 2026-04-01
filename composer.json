@@ -1,6 +1,6 @@
 {
   "name": "astral-php/astral-form",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Form helpers and partials for Astral MVC.",
   "type": "library",
   "license": "MIT",
