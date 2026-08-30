@@ -8,8 +8,8 @@ et afficher les erreurs issues de `Core\Validator`.
 
 ## Compatibilite
 
-- PHP: `^8.0`
-- Astral MVC: `^1.1`
+- PHP: `^8.1` (8.1 → 8.5)
+- Astral MVC: `^1.1` (recommandé ≥ 1.1.3)
 
 ## Installation
 

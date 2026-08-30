@@ -2,6 +2,12 @@
 
 Toutes les modifications notables apportées à `astral-form` sont documentées dans ce fichier.
 
+## [0.1.2] - 2026-08-29
+
+### Changements incompatibles
+
+- PHP minimum porté de 8.0 à **8.1** (`"php": "^8.1"`), aligné sur Astral MVC 1.1.3 (cible 8.1 → 8.5).
+
 ## [0.1.1] - 2026-04-03
 
 ### Corrigé
