@@ -9,13 +9,17 @@ et afficher les erreurs issues de `Core\Validator`.
 ## Compatibilite
 
 - PHP: `^8.1` (8.1 → 8.5)
-- Astral MVC: `^1.1` (recommandé ≥ 1.1.3)
+- **Aucune** dépendance Composer sur `astral-php/astral` / hub (depuis **0.1.2**)
+- Compatible apps **astral-core ^2** (provider + `Core\Validator` / `View`)
+- Astral MVC ^1.1 : toujours utilisable
 
 ## Installation
 
 ```bash
-composer require astral-php/astral-form
+composer require astral-php/astral-form:^0.1.2
 ```
+
+> Éviter la contrainte exacte `0.1` : elle résout **0.1.0**, qui tire encore `astral-php/astral` ^1.
 
 Dans `config/dependencies.php`:
 

@@ -8,6 +8,10 @@ Toutes les modifications notables apportées à `astral-form` sont documentées 
 
 - PHP minimum porté de 8.0 à **8.1** (`"php": "^8.1"`), aligné sur Astral MVC 1.1.3 (cible 8.1 → 8.5).
 
+### Corrigé
+
+- Suppression du `require` Composer `astral-php/astral` ^1 — le package est autonome (FormBuilder + provider) et utilisable avec **astral-core ^2**.
+
 ## [0.1.1] - 2026-04-03
 
 ### Corrigé
